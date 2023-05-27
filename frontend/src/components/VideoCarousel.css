@@ -1,0 +1,55 @@
+.section-video {
+  padding-top: 3rem;
+  margin: 1rem;
+}
+.thumbnail {
+  width: 15rem;
+  height: auto;
+  margin: 0.5rem;
+}
+.scroll {
+  scroll-snap-type: x;
+  overflow-x: scroll;
+  display: flex;
+  align-items: top;
+  color: white;
+}
+
+.title-video-thumbnail {
+  color: #94b1d4;
+  font-family: "Open Sans Light";
+  font-weight: 1;
+  font-size: 1.2rem;
+  width: 15rem;
+}
+
+h1 {
+  color: white;
+  font-family: "Gilroy";
+}
+
+figcaption {
+  text-align: center;
+  font-family: "Open";
+}
+
+hr {
+  margin-top: 2rem;
+  border: 1px solid #94b1d4;
+  border-radius: 30%;
+}
+.lock {
+  width: 10rem;
+  height: auto;
+}
+.lock:hover {
+  color: #ff680a;
+}
+.Link-video {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 992px) {
+  .scroll {
+  }
+}

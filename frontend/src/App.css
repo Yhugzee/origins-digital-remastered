@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-ExtraBold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Open Sans Light";
+  src: url("../fonts/OpenSans-Light.ttf") format("truetype");
+}
+
+* {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #010d18;
+}
+
+.App-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.NavBar_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.section-video {
+  width: 78%;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: white;
+}
+a {
+  color: white;
+}
+
+/* CAROUSEL STYLE */
+
+.swiper {
+  width: inherit;
+  height: 50vh;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #010d18;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,59 @@
+.form_register,
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.form_register {
+  margin-top: 3rem;
+}
+.firstname,
+.lastname,
+.username_register,
+.password_register,
+.email {
+  font-family: "Open Sans Light", sans-serif;
+  font-size: large;
+  width: 17rem;
+  height: 2rem;
+  border-radius: 30px;
+  padding-left: 1rem;
+  margin-top: 2rem;
+}
+.register_btn {
+  font-size: 1rem;
+  font-family: "Gilroy", sans-serif;
+  margin: 2rem 0 1.5rem 0;
+  color: #ff680a;
+  background: none;
+  border-radius: 30px;
+  border: 2px solid #ff680a;
+  height: 2rem;
+  width: 10rem;
+  cursor: pointer;
+}
+
+.register_btn:hover {
+  color: #ffffff;
+  background-color: #ff680a;
+  transition: 0.7s;
+}
+
+.password_box_register {
+  position: relative;
+}
+.icon_register {
+  position: absolute;
+  right: 5%;
+  bottom: 10%;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.modification_p {
+  font-family: "Open Sans Light", sans-serif;
+  color: #ff680a;
+  margin-top: 2rem;
+  font-size: large;
+  font-weight: 800;
+}

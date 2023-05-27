@@ -1,0 +1,106 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo_connect {
+  margin-top: 5rem;
+  width: 12rem;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+.Logo_content {
+  width: 10rem;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.logo_origins {
+  width: 15rem;
+}
+.password_box {
+  position: relative;
+  margin-top: 1.5rem;
+}
+
+.icon {
+  position: absolute;
+  right: 5%;
+  transform: translateY(30%);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.username,
+.password {
+  font-family: "Open Sans Light", sans-serif;
+  font-size: large;
+  width: 17rem;
+  height: 2rem;
+  border-radius: 30px;
+  padding-left: 1rem;
+}
+
+.sign_in {
+  font-size: 1rem;
+  font-family: "Gilroy", sans-serif;
+  margin: 2rem 0 1.5rem 0;
+  color: #ff680a;
+  background: none;
+  border-radius: 30px;
+  border: 2px solid #ff680a;
+  height: 2rem;
+  width: 10rem;
+  cursor: pointer;
+}
+
+.sign_in:hover {
+  color: #ffffff;
+  background-color: #ff680a;
+  transition: 0.7s;
+}
+
+.Logo_content {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form_login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.error {
+  text-align: center;
+  color: red;
+}
+
+.logo_origins {
+  width: 75%;
+}
+
+.creation {
+  font-family: "Open Sans Light", sans-serif;
+  font-size: 0.9rem;
+}
+
+@media screen and (min-width: 700px) {
+  .logo_origins {
+    width: 40%;
+  }
+
+  .Logo_content {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

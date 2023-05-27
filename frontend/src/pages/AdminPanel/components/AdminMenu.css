@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../../../fonts/Gilroy-ExtraBold.otf") format("truetype");
+}
+@font-face {
+  font-family: "Open Sans Light";
+  src: url("../../../fonts/OpenSans-Light.ttf") format("truetype");
+}
+
+.admin-menu {
+  border-right: 0.188rem solid #ff680a;
+  font-family: "Gilroy", sans-serif;
+}
+
+h1 {
+  white-space: nowrap;
+}
+
+h2 {
+  font-family: "Gilroy", sans-serif;
+}
+
+.back {
+  margin-bottom: 10px;
+}
+
+.border-header {
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.title {
+  color: #ff680a;
+  font-size: 2rem;
+  font-family: "Gilroy", sans-serif;
+}
+
+.border-menu {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.5rem;
+}
+
+.border-category1 {
+  color: #94b1d4;
+  display: flex;
+}
+
+.category-menu {
+  border: none;
+  background: none;
+  text-align: left;
+  font-family: "Open Sans Light", sans-serif;
+}
+
+.border-category2 {
+  color: white;
+  margin-top: 2.188rem;
+  display: flex;
+}
+
+.border-category2:hover {
+  color: #ff680a;
+}
+
+.border-category2:visited {
+  color: #ff680a;
+}
+a {
+  text-decoration: none;
+}
